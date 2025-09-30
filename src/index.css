@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* ✅ apna custom theme yahin define kar */
+@theme {
+  --font-inter: "Inter", sans-serif;
+
+  --color: #F1F2FF;
+  --color-richblack-25: #DBDDEA;
+  --color-richblack-100: #AFB2BF;
+  --color-richblack-200: #999DAA;
+  --color-richblack-700: #2C333F;
+  --color-richblack-800: #161D29;
+  --color-richblack-900: #000814;
+
+  --color-blue-100: #47A5C5;
+  --color-pink-200: #EF476F;
+  --color-yellow-50: #FFD60A;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
